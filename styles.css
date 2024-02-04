@@ -1,0 +1,220 @@
+
+body {
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+
+.navbar-brand img.logo-small {
+    max-width: 50px; 
+    height: auto; 
+}
+
+.navbar-text {
+    width: 60%; 
+    text-align: right; 
+    margin-right: 8px; 
+    word-spacing: 15px; 
+    font-size: 8px;
+    font-weight: bold; 
+}
+
+.header-content {
+    padding: 60px 15px;
+    padding-left: 30px;
+}
+
+
+.header-image {
+    max-width: 95%; 
+    height: auto; 
+    margin-left: 5px;
+    margin-right: 40px;
+}
+
+.header-title {
+    font-size: 28px; 
+    font-weight: bold; 
+    margin-left: 20px; 
+}
+
+.paragraph-content {
+    font-size: 6px; 
+    font-weight: bold; 
+    margin-left: 20px; 
+    margin-right: auto; 
+    width: 100%; 
+}
+
+
+
+.btn-send-message {
+    background-color: #ffe207; 
+    color: black; 
+    margin-left: 20px;
+    padding: 12px 15px; 
+    font-size: 12px; 
+    border-radius: 0; 
+    text-transform: uppercase; 
+    font-weight: bold; 
+    cursor: pointer;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .yellow-box {
+    background-color: #ffe207;;
+    padding: 10px;
+    margin-bottom: 20px;
+    max-width: 100%;
+    height: 350px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .yellow-box > div {
+    text-align: center;
+  }
+  
+  .yellow-box h3 {
+    font-size: 16px; 
+    font-weight: bold;
+    color: black;
+  }
+  
+  .yellow-box h5 {
+    font-size: 12px; 
+    font-weight: bold;
+    color: black;
+  }
+  
+  @media (max-width: 768px) {
+    .yellow-box {
+      text-align: center;
+      height: auto;
+    }
+  }
+
+@media (max-width: 768px) {
+    .container h1 {
+        font-size: 28px; 
+        font-weight: bold; 
+        margin-left: -7px; 
+        margin-top: 15px; 
+    }
+}
+
+
+
+.btn-show-me-more {
+    background-color: #ffe207;;
+    border: none;
+    padding: 8px 14px;
+    font-size: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* CSS for Logos Section */
+.logos-section {
+    margin-top: 20px; 
+    margin-bottom: 1px; 
+  }
+  
+  .logo {
+    max-width: 120px; 
+    margin: 15px; 
+  }
+  
+  @media (max-width: 768px) {
+    .logo {
+      max-width: 60px; 
+    }
+  }
+  .about-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-box {
+    padding: 10px;
+    margin-top: -5px;
+}
+
+.yellow-bg {
+    background-color: #ffe207;;
+}
+
+.about-box h5,
+.about-box p {
+    margin: 5;
+}
+
+@media (max-width: 768px) {
+    .about-box {
+        margin-top: 20px; 
+    }
+}
+
+.img-large {
+    max-width: 115%;
+    height: auto;
+    margin-top: 50px; 
+}
+
+.icon-small {
+    max-width: 25px; 
+    height: auto; 
+    margin: 1px; 
+}
+
+@media (max-width: 576px) {
+    .icon-small {
+        max-width: 25px;
+    }
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer p {
+    margin-bottom: 0;
+    display: inline;
+    font-size: 8px; 
+}
+
+.footer-logo {
+    max-width: 50px; 
+    height: auto;
+}
+
+.back-to-top {
+    color: white;
+    font-size: 8px; 
+}
+
+.back-to-top a {
+    color: white;
+    text-decoration: none;
+}
+
+.back-to-top a:hover {
+    text-decoration: underline;
+}
+  
