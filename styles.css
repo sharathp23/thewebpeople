@@ -7,7 +7,8 @@ body {
 
 .navbar-brand img.logo-small {
     max-width: 50px; 
-    height: auto; 
+    height: auto;
+    margin-left: -2px;
 }
 
 .navbar-text {
@@ -17,43 +18,59 @@ body {
     word-spacing: 15px; 
     font-size: 8px;
     font-weight: bold; 
+    margin-bottom: 5px;
 }
 
 .header-content {
-    padding: 60px 15px;
-    padding-left: 30px;
+    padding: 20px 15px;
+    padding-left: 15px;
 }
-
 
 .header-image {
-    max-width: 95%; 
-    height: auto; 
-    margin-left: 5px;
-    margin-right: 40px;
+    margin-top: -30px;
+    margin-bottom: 30px; 
+    max-width: 150%;
+    height: 600px; 
+}
+.header-content .col-6.text-center img {
+margin-right: 20px;
+    width: 150px;
+    height: 200px;
+}
+.header-content .col-6.text-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.work {
+    margin-left: -11px;
+    font-size: 16px; 
+    white-space: nowrap;
+    font-weight: bold;
+ 
 }
 
-.header-title {
-    font-size: 28px; 
-    font-weight: bold; 
-    margin-left: 20px; 
+.font-size-small1,
+.font-size-small2,
+.font-size-small3 {
+    font-size: 20px; 
+    white-space: nowrap;
+    font-weight: bold;
+    margin-bottom: 3px;
 }
 
 .paragraph-content {
-    font-size: 6px; 
-    font-weight: bold; 
-    margin-left: 20px; 
-    margin-right: auto; 
-    width: 100%; 
+    margin-top: 2px;
+    font-size: 7px; 
+    font-weight: bold;    
 }
-
-
 
 .btn-send-message {
     background-color: #ffe207; 
     color: black; 
-    margin-left: 20px;
-    padding: 12px 15px; 
-    font-size: 12px; 
+    margin-left: 2px;
+    padding: 8px 12px; 
+    font-size: 10px; 
     border-radius: 0; 
     text-transform: uppercase; 
     font-weight: bold; 
@@ -125,8 +142,8 @@ body {
   }
   
   .logo {
-    max-width: 120px; 
-    margin: 15px; 
+    width: 40px; 
+    margin: 3px; 
   }
   
   @media (max-width: 768px) {
@@ -141,9 +158,15 @@ body {
 }
 
 .about-box {
-    padding: 10px;
-    margin-top: -5px;
+    padding: 8px;
+    margin-top: 20px;
+    margin-bottom: 0; 
 }
+
+.img-fluid.mb-0 {
+    margin-bottom: 0; 
+}
+
 
 .yellow-bg {
     background-color: #ffe207;;
@@ -153,12 +176,11 @@ body {
 .about-box p {
     margin: 5;
 }
-
-@media (max-width: 768px) {
-    .about-box {
-        margin-top: 20px; 
-    }
+.img-fluid.mb--10 {
+    margin-bottom: -10px;
 }
+
+
 
 .img-large {
     max-width: 115%;
@@ -187,26 +209,23 @@ body {
     left: 0;
 }
 
-.footer .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
 .footer p {
     margin-bottom: 0;
     display: inline;
-    font-size: 8px; 
+    font-size: 6px;
+    white-space: nowrap;
 }
 
 .footer-logo {
-    max-width: 50px; 
+    max-width: 30px;
     height: auto;
 }
 
 .back-to-top {
     color: white;
-    font-size: 8px; 
+    font-size: 6px;
+    margin-top: -2px;
+    margin-right: 0; 
 }
 
 .back-to-top a {
@@ -217,4 +236,12 @@ body {
 .back-to-top a:hover {
     text-decoration: underline;
 }
-  
+
+.footer-content {
+    display: flex;
+    align-items: center;
+}
+
+.footer-content p {
+    margin-left: 3px; 
+}
